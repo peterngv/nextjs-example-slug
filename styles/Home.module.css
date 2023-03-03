@@ -7,6 +7,28 @@
   min-height: 100vh;
 }
 
+.category {
+  display: flex;
+  flex-direction: row;
+}
+.categoryItem {
+  margin-right: 8rem;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: var(--max-width);
+  font-family: var(--font-mono);
+  width: 100%;
+}
+
+.footer {
+  font-family: var(--font-mono);
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
@@ -97,7 +119,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -125,7 +147,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }
